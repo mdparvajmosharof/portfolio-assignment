@@ -66,8 +66,8 @@ const Footer = (props) => {
           </a>
         )}
         {devDotTo && (
-          <a href={`https://dev.to/${devDotTo}`} target="_blank" rel="noopener noreferrer">
-            <img src={devDotToIcon} alt="Dev.to" className="socialIcon" />
+          <a href={`https://codeforces.com/profile/${devDotTo}`} target="_blank" rel="noopener noreferrer">
+            <img src={devDotToIcon} alt="codeforces" className="socialIcon" />
           </a>
         )}
         {gitHub && (
